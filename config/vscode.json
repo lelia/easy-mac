@@ -1,0 +1,52 @@
+{
+    "editor.minimap.enabled": false,
+    "files.associations": {
+        "Brewfile": "shellscript",
+        "Caskfile": "shellscript",
+        "zshenv": "shellscript",
+        "zshrc": "shellscript",
+        "profile": "shellscript"
+    },
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "window.zoomLevel": 0,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.renderWhitespace": "all",
+    "python.jediEnabled": false,
+    "[xml]": {
+        "editor.defaultFormatter": "redhat.vscode-xml"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "buildkite.accessToken": "$BUILDKITE_API_TOKEN",
+    "yaml.format.enable": true,
+    "yaml.schemas": { 
+        "https://raw.githubusercontent.com/buildkite/pipeline-schema/master/schema.json": "/*" 
+    },
+    "update.mode": "manual",
+    "karateRunner.karateJar.commandLineArgs": "java -Dkarate.config.dir=tests/karate/resources -jar tests/karate/bin/karate.jar",
+    "karateRunner.buildReports.toTarget": "**/{cucumber-html-reports/overview-features}.htm*",
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "terminal.integrated.shell.osx": "/bin/bash",
+    "explorer.confirmDragAndDrop": false,
+    "karateRunner.tests.toTarget": "**/tests/karate/**/*.feature",
+    "karateRunner.buildDirectory.cleanBeforeEachRun": false,
+    "karateRunner.karateRunner.default": "",
+    "karateRunner.karateRunner.promptToSpecify": false,
+    "files.insertFinalNewline": true,
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "[shellscript]": {
+        "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    }
+}
