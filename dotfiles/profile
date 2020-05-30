@@ -1,0 +1,4 @@
+# Move to ~/.profile
+
+export SHELL="/bin/zsh"
+export EDITOR="/usr/local/bin/vim"
