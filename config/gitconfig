@@ -1,0 +1,7 @@
+# Move to ~/.gitconfig
+
+[user]
+	name = lelia
+	email = le1ia@me.com
+[push]
+	default = current
