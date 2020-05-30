@@ -1,0 +1,41 @@
+# Move to ~/.zshrc
+
+# Zsh config
+export ZSH="${HOME}/.oh-my-zsh"
+
+# Themes
+ZSH_THEME="robbyrussell"
+
+# Plugins
+plugins=(git docker tmux colorize)
+
+source "${ZSH}/oh-my-zsh.sh"
+
+# Path config
+export PATH="${HOME}/.cargo/bin:/usr/local/opt/php@7.2/bin:/usr/local/opt/php@7.2/sbin:${HOME}/bin:$PATH"
+
+# Language shortcuts
+alias pip="pip3"
+alias python="python3"
+alias pi="pip install"
+alias phpunit="./vendor/bin/phpunit --bootstrap vendor/autoload.php"
+alias ci="composer install"
+alias iphp="php -a"
+
+# Workflow shortcuts
+alias nmux="tmux new-session"
+alias xcode="open -a Xcode"
+
+# Git shortcuts
+alias g="git clone"
+alias gc="git checkout"
+alias gcb="git checkout -b"
+alias ga="git add"
+alias gm="git merge"
+alias gmm="git merge master"
+alias gcm="git commit -m"
+alias gpu="git push"
+alias gpl="git pull"
+alias gs="git status"
+alias gd="git diff"
+alias gl="git log"

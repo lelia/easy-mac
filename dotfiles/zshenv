@@ -1,0 +1,4 @@
+# Move to ~/.zshenv
+
+export PATH=/usr/local/bin:/usr/bin:/usr/sbin:/bin:/sbin
+export PATH="${HOME}/.cargo/bin:/usr/local/opt/php@7.2/bin:/usr/local/opt/php@7.2/sbin:${HOME}/bin:${PATH}"
