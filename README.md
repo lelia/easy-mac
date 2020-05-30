@@ -2,8 +2,6 @@
 
  A collection of profiles, settings, dotfiles, etc. for more easily configuring new macOS machines :computer::apple:
 
-----
-
 ## 🔧 config
 
 ```bash
@@ -14,8 +12,6 @@ config
 └── vscode.json # VSCode IDE settings
 ```
 
-----
-
 ## :page_facing_up: dotfiles
 
 ```bash
@@ -25,8 +21,6 @@ dotfiles
 ├── zshenv # Zsh environment
 └── zshrc # Zsh configuration
 ```
-
-----
 
 ## :beers: homebrew
 
