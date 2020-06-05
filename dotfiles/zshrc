@@ -11,9 +11,6 @@ plugins=(git docker tmux colorize)
 
 source "${ZSH}/oh-my-zsh.sh"
 
-# Path config
-export PATH="${HOME}/.cargo/bin:/usr/local/opt/php@7.2/bin:/usr/local/opt/php@7.2/sbin:${HOME}/bin:$PATH"
-
 # Language shortcuts
 alias pip="pip3"
 alias python="python3"
