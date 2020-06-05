@@ -1,6 +1,6 @@
 # easy-mac
 
- A collection of profiles, settings, dotfiles, etc. for more easily configuring new macOS machines :computer::apple:
+ A collection of profiles, settings, dotfiles, etc for more easily configuring new macOS machines 💻 🍎
 
 ## 🔧 config
 
