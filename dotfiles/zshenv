@@ -1,4 +1,23 @@
 # Move to ~/.zshenv
 
-export PATH=/usr/local/bin:/usr/bin:/usr/sbin:/bin:/sbin
-export PATH="${HOME}/.cargo/bin:/usr/local/opt/php@7.2/bin:/usr/local/opt/php@7.2/sbin:${HOME}/bin:${PATH}"
+# Custom flag opts
+export LDFLAGS="-L/usr/local/opt/ruby/lib"
+export CPPFLAGS="-I/usr/local/opt/ruby/include"
+export GOSS_PATH="${HOME}/bin/goss"
+export JAVA_HOME=`/usr/libexec/java_home -v 1.8.0_222`
+
+# NVM configuration
+export NVM_DIR="$HOME/.nvm"
+declare -a NODE_GLOBALS=(`find ~/.nvm/versions/node -maxdepth 3 -type l -wholename '*/bin/*' | xargs -n1 basename | sort | uniq`)
+NODE_GLOBALS+=("node")
+NODE_GLOBALS+=("nvm")
+
+load_nvm () {
+    export NVM_DIR=~/.nvm
+    [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+}
+
+# https://www.reddit.com/r/node/comments/4tg5jg/lazy_load_nvm_for_faster_shell_start/d5ib9fs/
+for cmd in "${NODE_GLOBALS[@]}"; do
+    eval "${cmd}(){ unset -f ${NODE_GLOBALS}; load_nvm; ${cmd} \$@ }"
+done
