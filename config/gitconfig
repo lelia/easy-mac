@@ -23,7 +23,8 @@
 [protocol]
     version = 2
 
-# Allows for flexible folder-based git configs
+# Allows for flexible, folder-based git configs
+
 [includeIf "gitdir:~/codebase/github/"]
     path = ~/codebase/github/.gitconfig
 [includeIf "gitdir:~/codebase/other/"]
