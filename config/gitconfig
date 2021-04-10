@@ -1,7 +1,30 @@
 # Move to ~/.gitconfig
 
-[user]
-	name = lelia
-	email = le1ia@me.com
+[color]
+    ui = true
+[pull]
+    rebase = true
 [push]
-	default = current
+    default = current
+[fetch]
+    prune = true
+[core]
+    autocrlf = false
+    preloadindex = true
+    symlinks = false
+    editor = /usr/local/bin/vim
+    excludesfile = ~/.gitignore
+[log]
+    decorate = short
+[http]
+    sslVerify = false
+[pack]
+    useSparse = true
+[protocol]
+    version = 2
+
+# Allows for flexible folder-based git configs
+[includeIf "gitdir:~/codebase/github/"]
+    path = ~/codebase/github/.gitconfig
+[includeIf "gitdir:~/codebase/other/"]
+    path = ~/codebase/other/.gitconfig
