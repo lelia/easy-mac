@@ -14,10 +14,7 @@ source "${ZSH}/oh-my-zsh.sh"
 # Language shortcuts
 alias pip="pip3"
 alias python="python3"
-alias pi="pip install"
 alias phpunit="./vendor/bin/phpunit --bootstrap vendor/autoload.php"
-alias ci="composer install"
-alias iphp="php -a"
 
 # Workflow shortcuts
 alias nmux="tmux new-session"
