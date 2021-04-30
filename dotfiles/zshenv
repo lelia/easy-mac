@@ -4,7 +4,7 @@
 export LDFLAGS="-L/usr/local/opt/ruby/lib"
 export CPPFLAGS="-I/usr/local/opt/ruby/include"
 export GOSS_PATH="${HOME}/bin/goss"
-export JAVA_HOME=`/usr/libexec/java_home -v 1.8.0_222`
+export JAVA_HOME=`/usr/libexec/java_home -v 11.0.9`
 
 # NVM configuration
 export NVM_DIR="$HOME/.nvm"
