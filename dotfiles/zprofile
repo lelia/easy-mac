@@ -5,4 +5,4 @@ PATH=/usr/local/bin:/usr/bin:/usr/sbin:/bin:/sbin
 export PATH
 
 # Custom path logic
-export PATH="${HOME}/bin:${HOME}/.cargo/bin:/usr/local/opt/php@7.2/bin:/usr/local/opt/php@7.2/sbin:/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/3.0.0/bin:${HOME}/.yarn/bin:${HOME}/.config/yarn/global/node_modules/.bin:${PATH}"
+export PATH="${HOME}/bin:${HOME}/.local/bin:${HOME}/.cargo/bin:/usr/local/Cellar/python@3.9/3.9.4/bin:/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/3.0.0/bin:${HOME}/.yarn/bin:${HOME}/.config/yarn/global/node_modules/.bin:${PATH}"
