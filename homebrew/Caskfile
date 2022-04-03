@@ -2,7 +2,7 @@
 
 # OpenJDK 8 configuration
 tap "homebrew/cask-versions"
-cask "adoptopenjdk/openjdk/adoptopenjdk8"
+cask "adoptopenjdk/openjdk/adoptopenjdk11"
 
 cask "appcleaner"
 cask "appcode"
