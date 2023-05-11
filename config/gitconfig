@@ -12,8 +12,16 @@
     autocrlf = false
     preloadindex = true
     symlinks = false
-    editor = /usr/local/bin/vim
+    editor = vim
     excludesfile = ~/.gitignore
+[gpg]
+    format = ssh
+[user]
+    signingkey = ~/.ssh/id_rsa.pub
+[commit]
+    gpgsign = true
+[tag]
+    gpgSign = true
 [log]
     decorate = short
 [http]
