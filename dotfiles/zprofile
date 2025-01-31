@@ -1,8 +1,8 @@
 # Move to ~/.zprofile
 
-# OSX default path
-PATH=/usr/local/bin:/usr/bin:/usr/sbin:/bin:/sbin
-export PATH
+# Define macOS system path if needed
+# PATH=/usr/local/bin:/usr/bin:/usr/sbin:/bin:/sbin
+# export PATH
 
-# Custom path logic
-export PATH="${HOME}/bin:${HOME}/.local/bin:${HOME}/.cargo/bin:/usr/local/Cellar/python@3.9/3.9.4/bin:/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/3.0.0/bin:${HOME}/.yarn/bin:${HOME}/.config/yarn/global/node_modules/.bin:${PATH}"
+# If needed, insert custom path logic before `:${PATH}`
+# export PATH=":${PATH}"
