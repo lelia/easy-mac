@@ -30,6 +30,8 @@
     useSparse = true
 [protocol]
     version = 2
+[init]
+    defaultBranch = main
 
 # Allows for flexible, folder-based git configs
 
